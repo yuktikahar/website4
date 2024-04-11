@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration and Contact Page</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  .lou{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin: 10px 20px;
+    padding: 20px 20px;
+  }
+  .cont{
+    border: 1px solid;
+    border-color: gray;
+    padding: 20px 20px;
+  }
+ 
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  .registration, .contact {
+    flex: 1;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 45px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  .form-group input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #050505;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .form-group input[type="submit"]:hover {
+    background-color: #0e0e0e;
+  }
+  .containt{
+    background-color: #f6f5f3;;
+    padding: 20px 20px;
+  }
+  .cre{
+   text-align: start;
+   margin: 20px 90px;
+  }
+  .footer1 {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+  .fot{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+  }
+  .fot p{
+    margin: 10px 10px;
+  }
+  .louis{
+    text-decoration: none;
+    color: white;
+  }
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="password"],
+  .form-group textarea {
+    width: 100%;
+    padding: 14px 0px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+    .registration, .contact {
+      width: 90%;
+      margin: 1px 0px 5px 0px;
+    padding: 20px 20px 20px 20px;
+    }
+    .cre{
+  font-size: 19px;
+  text-align: center;
+    
+  }
+  .lou{
+    font-size: 14px;
+  }
+  }
+</style>
+</head>
+<body>
+
+    <header class="container-fluid cont">
+        <span><a href="home.html" class="lou">Louis vuitton</a>ACCOUNT CREATION</span>
+      </header>
+      <h1 class="p-4 cre">CREATE A NEW ACCOUNT</h1>
+<div class="container">
+  <div class="registration">
+    <h2>Register</h2>
+    <form id="registrationForm">
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Register">
+      </div>
+    </form>
+  </div>
+
+  <div class="contact">
+   <div class="">
+    <h2>Client services</h2>
+    <hr>
+    <p>1800 103 9988</p>
+    <hr>
+    <p>Email us</p>
+   </div>
+   <div class="containt">
+       <h4>BY CREATING A MY LV ACCOUNT, YOU WILL BE ABLE TO:</h4>
+       <p>Follow your online orders, in-store repairs, and access your purchase history and e-receipts</p>
+       <p>Manage your personal information</p>
+       <p>Receive Louis Vuitton’s digital communication</p>
+       <p>Create your personal wishlist</p>
+   </div>
+  </div>
+</div>
+
+<footer class="footer1">
+    <h3><a href="index.html" class="louis">Louis vuitton</a></h3>
+ <div class="fot">
+    <p>India</p>
+    <p>Contact</p>
+    <p>Stores</p>
+    <p>Apps</p>
+    <p>Follow Us</p>
+    <p>Legal & Privacy</p>
+ </div>
+</footer>
+
+
+</body>
+</html>

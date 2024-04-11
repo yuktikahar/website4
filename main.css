@@ -1,0 +1,510 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: .025rem;
+    line-height: 1.5rem;
+   }
+    .header {
+      background: url('https://in.louisvuitton.com/images/is/image//content/dam/lv/editorial-content/brand-content-coremedia/men/2024/collection/spring-24/di3/M_BC_Spring_Mar24_25_DI3.jpg?wid=2400');
+      background-position: center;
+      color: #fff;
+      padding: 20px 0; 
+      transition: background-color 0.3s ease; 
+      width: 100%;
+    }
+    #container-fluid1{
+      background-color: transparent; /* Initial background color */
+      color: #fff; /* Initial text color */
+      transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background color and text color */
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 999;
+    }
+    .title {
+      font-size: 50px; 
+      margin: 0; 
+    }
+    .icon {
+      color: #fff; 
+      margin-left: 10px; 
+    }
+    .icon:hover {
+      color: #ccc;
+    }
+    .fa{
+        margin-top: 13px;
+    }
+    .nav-item,.cl{
+        margin-right: 20px;
+    }
+    .title1 {
+      font-size: 20px; 
+    }
+    .btn{
+      padding: 10px 20px; 
+      font-size: 12px; 
+      backdrop-filter: blur(15px);
+      border: 2px solid;
+      border-radius: 20px;
+      color: #fff; 
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .btn:hover{
+      color: #fff;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .subtitle{
+        font-size: 10px; 
+    }
+    .main{
+        text-align: center;
+        margin-top:450px ;
+    }
+    .ex,.ex:hover{
+        text-decoration:underline;
+        color: black;
+    }
+    .card{
+        border: none;
+    }
+    .row1{
+        background-image: url('https://in.louisvuitton.com/images/is/image//content/dam/lv/editorial-content/Homepage/2024/2024_march/central/Women_Nautical_WW_HP_Push_V0329_DI3.jpg?wid=2400'); /* Background image URL */
+      }
+    .background-container {
+        color: #fff; /* Text color */
+        padding-top: 550px;
+        padding-bottom: 20px; /* Adjust padding as needed */
+        text-align: center; /* Center align text */
+      }
+      .row2{
+        background-image: url('https://in.louisvuitton.com/images/is/image//content/dam/lv/editorial-content/Homepage/2024/2024_february/central/Women_SS24_Collection_WW_HP_Push_V0227_V2_DI3.jpg?wid=2400'); /* Background image URL */
+      }
+    .background-container2 {
+        color: #fff; /* Text color */
+        padding-top:800px;
+        padding-bottom: 20px; /* Adjust padding as needed */
+        text-align: center; /* Center align text */
+      }
+      .h{
+        color: gray;
+      }
+      #sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #f8f9fa;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        z-index: 1000;
+      }
+      #sidebar a {
+        padding: 10px 50px 10px 25px;
+        margin: 10px 1px 7px 11px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #989696;
+        display: block;
+        transition: 0.3s;
+        position: relative; /* Required for absolute positioning */
+      }
+      #sidebar a:hover {
+        text-decoration: underline;
+        color: #000;
+        transition: 0.3s;
+      }
+      #sidebar .close-btn {
+        position: absolute;
+        top: 10px;
+        left: 25px;
+        font-size: 36px;
+        margin-right: 50px;
+      }
+      .open-nav {
+        cursor: pointer;
+      }
+      .close-sidebar {
+        position: absolute;
+        top: 10px;
+        right: 25px;
+        font-size: 36px;
+        cursor: pointer;
+      }
+      #sidebar a .chevron {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: transparent;
+        transition: color 0.3s;
+      }
+      #sidebar a:hover .chevron {
+        color: #888;
+      }
+      .side{
+        padding: 0px 0px 0px 23px;
+        margin: 0px 6px 7px 11px;
+      }
+      .search-container {
+        display: none;
+        position: absolute;
+        top: 56px; /* Adjust based on your navbar height */
+        left: 0;
+        width: 100%;
+        background-color:transparent;
+        padding: 10px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1000; /* Ensure search container is above other content */
+        padding: 20px 0px;
+      }
+      .search-container.active {
+        display: block;
+      }
+      .search-history {
+        margin-top: 10px;
+        color: white;
+      }
+      .search-history h5 {
+        margin-bottom: 5px;
+      }
+      .search-history ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .search-history li {
+        margin-bottom: 5px;
+      }
+      #searchInput{
+        margin: 20px 0px 17px 0px;
+      }
+      .sub{
+      padding: 7px 20px; 
+      font-size: 12px; 
+      background-color: transparent;
+      backdrop-filter: blur(15px);
+      border: 2px solid;
+      border-radius: 20px;
+      color: #fff; 
+      text-decoration: none;
+      cursor: pointer;
+      }
+      .sub:hover{
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      #con{
+        height: 100%;
+        width: 0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #f8f9fa;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        z-index: 1000;
+      }
+      #con a {
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #000;
+        display: block;
+        transition: 0.3s;
+      }
+      #con a:hover {
+        background-color: #e9ecef;
+      }
+      #con .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      #content {
+        transition: margin-right 0.5s;
+        padding: 20px;
+      }
+      .open-nav {
+        cursor: pointer;
+      }
+      #con a{
+        padding: 20px 20px;
+        font-size: 15px;
+      }
+      #con h4{
+        padding: 20px 20px;
+      }
+      #con p{
+        padding: 0px 20px;
+      }
+      #login-container{
+        height: 100%;
+        width: 0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #f8f9fa;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        z-index: 1000;
+      }
+       .close-btn ,.close-btn:hover{
+        position: absolute;
+        top: 10px;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        text-decoration: none;
+        color:black;
+      }
+      #content {
+        transition: margin-right 0.5s;
+        padding: 20px;
+      }
+      .open-nav {
+        cursor: pointer;
+      }
+      .login-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .form-group {
+        margin-bottom: 20px;
+      }
+      .form-group label {
+        
+        font-weight: bold;
+        margin: 22px 50px;
+      }
+      .form-group input[type="text"],
+      .form-group input[type="password"] {
+        width: 70%;
+        padding: 10px;
+        margin: 0px 55px;
+        border: 1px solid #ccc;
+        border-radius: 13px;
+      }
+      .form-group input[type="submit"] {
+        width: 50%;
+        padding: 10px;
+        margin: 16px 96px;
+        border: none;
+        border-radius: 20px;
+        background-color: #070707;
+        color: #fff;
+        cursor: pointer;
+      }
+      .form-group input[type="submit"]:hover {
+        background-color: #080808;
+      }
+      .acc,.co,.reg{
+        margin: 9px 41px;
+      }
+      .reg{
+        width: 50%;
+        padding: 10px;
+        margin: 16px 96px;
+        border: 1px solid;
+        border-radius: 20px;
+        background-color: #fefcfc;
+        color: #060606;
+        cursor: pointer;
+      }
+      .reg:hover{
+        color:white;
+        background-color: black;
+        border-color: rgb(244, 242, 242);
+      }
+      .header1 {
+        background: url('https://www.louisvuitton.com/images/is/image/lv/M_BC_Spring_Mar24_03_DI3.jpg?wid=2400');
+        background-position:top;
+        color: #fff;
+        padding: 20px 0; 
+        transition: background-color 0.3s ease; 
+        width: 100%;
+        height: 700px;
+      }
+      .main1{
+          text-align:start;
+          margin-top:450px;
+      }
+      .main2{
+        text-align:start;
+        margin-top:450px;
+        color: black;
+    }
+      .card {
+        margin-bottom: 20px;
+        margin-left: -31px;
+      }
+      .card img {
+        height: 100%; 
+        width: 100%;
+        object-fit: cover;
+      }
+      .imag{
+        height:600px;
+        width:100%;
+      }
+      .header2 {
+        background: url('https://www.louisvuitton.com/images/is/image/lv/W_BC_LOWKEYHOBO_APRIL24_01_DI3.jpg?wid=2400');
+        background-position:top;
+        color: #0c0c0c;
+        padding: 20px 0; 
+        transition: background-color 0.3s ease; 
+        width: 100%;
+        height: 700px;
+      }
+      .header2 .icon,.header2 .title,.header2 .faa{
+        color: black;
+      }
+      .header3 {
+        background-color: white;
+        background-position:top;
+        color: #070707;
+        padding: 20px 0; 
+        transition: background-color 0.3s ease; 
+        width: 100%;
+        height: 100px;
+      }
+      .header3 .icon,.header3 .title,.header3 .faa{
+        color: black;
+      }
+    @media (max-width: 576px) {
+    .header {
+      background-image: url('https://in.louisvuitton.com/images/is/image//content/dam/lv/editorial-content/brand-content-coremedia/men/2024/collection/spring-24/dii/M_BC_Spring_Mar24_02_DII.jpg?wid=1090'); /* Replace 'path/to/your/image.jpg' with the path to your image */
+      background-size: cover;
+      background-position: center;
+      color: #fff; 
+      padding: 20px 0;
+      transition: background-color 0.3s ease; 
+      width: 100%;
+      z-index: 999; 
+    }
+    .header1 {
+      background: url('https://www.louisvuitton.com/images/is/image/lv/M_BC_Spring_Mar24_03_DI3.jpg?wid=2400');
+      background-position:left;
+      background-size: cover;
+      color: #fff;
+      padding: 20px 0; 
+      transition: background-color 0.3s ease; 
+      width: 100%;
+      height: 700px;
+    }
+    .main1{
+      text-align:start;
+        margin-top:450px;
+        margin-left: 0;
+    }
+    .header2 {
+      background: url('https://www.louisvuitton.com/images/is/image/lv/W_BC_LG_SIDETRUNKPM_MAR24_02_DI3.jpg?wid=2400');
+      background-position:bottom;
+      background-size: cover;
+      color: #f7f0f0;
+      padding: 20px 0; 
+      transition: background-color 0.3s ease; 
+      width: 100%;
+      height: 700px;
+    }
+    .main2{
+      text-align:start;
+        margin-top:450px;
+        margin-left: 0;
+        color: white;
+    }
+ 
+    .im{
+      margin:0;
+    }
+    .container-fluid1{
+      position: fixed;
+      margin-right: auto;
+      margin-left: auto;
+    }
+     .title {
+        font-size: 15px; 
+      }
+
+       .faa {
+        font-size: 15px;
+      }
+      .nav-link{
+        display: none;
+      }
+      .cl{
+        display: none;
+      }
+     .br{
+        display:flex;
+        flex-direction: column;
+        margin: 20px 75px;
+     }
+     .bt{
+        font-size: 10px;
+     }
+     .bt1{
+        font-size: 10px;
+        margin-top: 10px;
+     }
+     .row1{
+        background-image: url('https://in.louisvuitton.com/images/is/image//content/dam/lv/editorial-content/Homepage/2024/2024_march/central/Women_Nautical_WW_HP_Push_V0329_DI3.jpg?wid=2400'); /* Background image URL */
+        background-size: cover; /* Cover the entire container */
+        background-position: center; 
+      }
+      .row2{
+        background-image: url('https://static.zara.net/photos///contents/mkt/spots/ss24-north-woman-total-look/subhome-xmedia-15//w/1920/IMAGE-landscape-fill-ca318d56-afc7-45a8-930a-5ed49e934611-default_0.jpg?ts=1712572633094'); /* Background image URL */
+        background-size: cover;
+        background-position:right;
+      }
+      .sub{
+        padding: 0px 10px 8px 9px; 
+        font-size: 12px; 
+        background-color: transparent;
+        backdrop-filter: blur(15px);
+        border: 2px solid;
+        border-radius: 20px;
+        color: #fff; 
+        text-decoration: none;
+        cursor: pointer;
+        }
+        .sub:hover{
+          color: #fff;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        .side,.sidebar{
+          color: black;
+        }
+        .h p{
+          color: black;
+        }
+        .h{
+          font-weight: bolder;
+        }
+        .card {
+          margin-bottom: 20px;
+          margin-left: -6px;
+        }  
+        .imag{
+          width: 100%;
+          height: 400px;
+        } 
+        .header2 .icon,.header2 .title,.header2 .faa{
+          color:black;
+        }    
+    }
+    
+
+    
